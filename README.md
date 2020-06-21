@@ -28,8 +28,8 @@
 
 安装方法：
 
-- ![image](http://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/icons/Google_Chrome_icon_(September_2014).svg) **Google Chrome**: [GitHub + Mermaid - Chrome Web Store](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe)
-- <img height="16" src="./resources/icons/firefox-logo-300x310.png"> **Firefox**: [GitHub + Mermaid - Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/github-mermaid/)
+- <img height="16" src="https://github.com/BackMarket/github-mermaid-extension/raw/master/resources/icons/chrome.svg?sanitize=true"> **Google Chrome**: [GitHub + Mermaid - Chrome Web Store](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe)
+- <img height="16" src="https://github.com/BackMarket/github-mermaid-extension/raw/master/resources/icons/firefox.svg?sanitize=true"> **Firefox**: [GitHub + Mermaid - Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/github-mermaid/)
 
 <br/>
 
