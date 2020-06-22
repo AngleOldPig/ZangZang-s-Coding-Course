@@ -38,7 +38,6 @@
 <br/>
 
 1. [基础知识]
-<br/>
 2. [接触JS]
 
 
@@ -48,7 +47,7 @@
 
 <br/>
 
-[进入课程](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/1.%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/基础知识.md)
+#### [进入课程](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/1.%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/基础知识.md)
 
 <br/>
 
