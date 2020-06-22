@@ -59,12 +59,28 @@ A{基础知识} --> B(工具使用)
 
 ### 二、接触JS
 
+#### [进入课程文档](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/1.%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/接触JS.md)
+
 <br/>
 
-    1.前端三巨头：html、css、js
+```mermaid
+graph LR
+A{接触JS} --> B(所需技术)
+        B --> C(前端三巨头)
+        C --> D[HTML]
+        C --> E[CSS]
+        C --> F[JS]
+        B --> G(配合辅助)
+        G --> H[PHP]
+        G --> I[SQL]
+        A --> J(实操)
+        J --> K[在VS中创建JS项目]
+        J --> L[布置本地页面]
+        J --> M[实现价格判断与循环加和]
+        A --> N(算法导论)
+        N --> O[时间复杂度]
+```
 
-       配合辅助：php、SQL
+<br/>
 
-    2.实操：创建本地页面，实现价格判断与循环加和
-
-    3.算法导论：时间复杂度O()
+<br/>
