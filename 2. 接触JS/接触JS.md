@@ -1,0 +1,120 @@
+# 接触 JavaScript
+
+<br/>
+
+### 本节课内容：
+
+<br/>
+
+    1.前端三巨头：Html、Css、Javascript
+
+    2.配合辅助：PHP、SQL
+
+    3.实操部分（上）：创建项目与配置Html文件
+
+    4.实操部分（下）：逻辑实现价格判断与循环加和
+
+    5.算法导论：时间复杂度
+
+<br/>
+
+### 1. 前端三巨头
+
+<br/>
+
+Html：网页的内容框架，向用户呈现内容，是整个网页的基础
+
+Css：包含内容的渲染参数，让页面更好看，编写很简单
+
+JavaScript：提供网页所用的逻辑计算，并与后端交换数据
+
+<br/>
+
+### 2. 配合辅助
+
+<br/>
+
+SQL：用于数据库的访问、搜索、数据处理
+
+PHP：用现有库来代替SQL实现对服务器端的操作
+
+<br/>
+
+### 3. 实操部分（上）：创建项目与配置Html文件
+
+<br/>
+
+### 4. 实操部分（下）：逻辑实现价格判断与循环加和
+
+<br/>
+
+### 5. 理论知识：时间复杂度
+
+<br/>
+
+    参考教材
+    
+    《Algorithm Design》 Jon Kleinberg & Éva Tardos
+
+    2.1 Computational Tractability 计算可解性 【Page 29-35】
+
+<br/>
+
+随着输入数据的数量规模增加，程序运行需要更大的内存空间和更长的时间，但不同的算法对数据增加的敏感性不同。
+
+定义：给定输入数据规模 n，在最差的情况下花费的时间为 T(n) ，随着 n 的规模增大，算法执行所需要的时间增长速度用 f(n) 表示。
+
+目前时间复杂度普遍采用大O表示法：T(n) = O( f(n) )
+```C
+int oldpig = 0;
+for(int i=0;i<n;i++){
+    oldpig++;
+}
+```
+这段循环程序的时间复杂度为 T(n) = O(n)
+
+因为程序根据 n 的大小决定循环的次数，若 n 翻倍，花费的时间亦要翻倍，因此 f(n) = n ，代入公式则得到T(n) = O( f(n) ) = O(n)
+
+但是要注意大O准确的意义是 f(n) 函数的数量级上界。若 f(n) 最终结果是多项式形式，则只取最高阶数量级，其中的低阶项和常数可省略。例如：
+```C
+int PrintCount(int n){
+    for(int i=0;i<n;i++){
+        printf("Hello world!\n");
+    }
+    for(int j=0;j<n;j++){
+        printf("This is OldPig!\n");
+    }
+    return 0;
+}
+```
+以上程序中，我们根据 n 的大小决定了循环次数，每翻倍 n 一次，就增加了 2n 次循环，但这个程序的时间复杂度依然是 T(n) = O(n) 。因为虽然 f(n) = 2n ，但它作为多项式，最高阶为 n 的一次方，因此取 O(n) 来代表此程序的时间复杂度。
+
+<br/>
+
+#### 常见的时间复杂度量级
+
+- 常数阶O(1)
+- 对数阶O(logN)
+- 线性阶O(n)
+- 线性对数阶O(nlogN)
+- 平方阶O(n²)
+- 立方阶O(n³)
+- K次方阶O(n^k)
+- 指数阶(2^n)
+
+它们的性能如下表：
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+### [本节作业](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/1.%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/接触JS作业.md)
+
+<br/>
+
+### [返回课程目录](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/README.md)
+
+<br/>
