@@ -52,6 +52,10 @@ PHP：用现有库来代替SQL实现对服务器端的操作
 
 <br/>
 
+<img height="360" src="https://raw.githubusercontent.com/AngleOldPig/ZangZang-s-Coding-Course/master/Resources/images/2-5%20%E5%8F%82%E8%80%83%E6%95%99%E6%9D%90.png">
+
+<br/>
+
     参考教材
     
     《Algorithm Design》 Jon Kleinberg & Éva Tardos
@@ -62,7 +66,11 @@ PHP：用现有库来代替SQL实现对服务器端的操作
 
 随着输入数据的数量规模增加，程序运行需要更大的内存空间和更长的时间，但不同的算法对数据增加的敏感性不同。
 
+<br/>
+
 定义：给定输入数据规模 n，在最差的情况下花费的时间为 T(n) ，随着 n 的规模增大，算法执行所需要的时间增长速度用 f(n) 表示。
+
+<br/>
 
 目前时间复杂度普遍采用大O表示法：T(n) = O( f(n) )
 ```C
@@ -71,9 +79,16 @@ for(int i=0;i<n;i++){
     oldpig++;
 }
 ```
+
+<br/>
+
 这段循环程序的时间复杂度为 T(n) = O(n)
 
+<br/>
+
 因为程序根据 n 的大小决定循环的次数，若 n 翻倍，花费的时间亦要翻倍，因此 f(n) = n ，代入公式则得到T(n) = O( f(n) ) = O(n)
+
+<br/>
 
 但是要注意大O准确的意义是 f(n) 函数的数量级上界。若 f(n) 最终结果是多项式形式，则只取最高阶数量级，其中的低阶项和常数可省略。例如：
 ```C
@@ -87,6 +102,9 @@ int PrintCount(int n){
     return 0;
 }
 ```
+
+<br/>
+
 以上程序中，我们根据 n 的大小决定了循环次数，每翻倍 n 一次，就增加了 2n 次循环，但这个程序的时间复杂度依然是 T(n) = O(n) 。因为虽然 f(n) = 2n ，但它作为多项式，最高阶为 n 的一次方，因此取 O(n) 来代表此程序的时间复杂度。
 
 <br/>
@@ -102,8 +120,15 @@ int PrintCount(int n){
 - K次方阶O(n^k)
 - 指数阶(2^n)
 
+<br/>
+
 它们的性能如下表：
 
+<img height="600" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/2-5%20%E4%B8%8D%E5%90%8C%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.jpg">
+
+<br/>
+
+###因此我们使用更少的时间空间完成目标，才是优秀程序员的能力。
 
 <br/>
 
