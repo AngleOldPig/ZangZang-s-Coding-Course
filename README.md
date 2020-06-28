@@ -30,12 +30,14 @@
 
 课程中的所有流程图需使用 [github-mermaid-extension](https://github.com/BackMarket/github-mermaid-extension) 插件后方能显示
 
-如果图片无法加载，则需要翻墙
-
 安装方法：
 
 - <img height="16" src="https://github.com/BackMarket/github-mermaid-extension/raw/master/resources/icons/chrome.svg?sanitize=true"> **Google Chrome**: [GitHub + Mermaid - Chrome Web Store](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe)
 - <img height="16" src="https://github.com/BackMarket/github-mermaid-extension/raw/master/resources/icons/firefox.svg?sanitize=true"> **Firefox**: [GitHub + Mermaid - Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/github-mermaid/)
+
+<br/>
+
+如果图片无法加载，或插件无法下载，则需要翻墙
 
 <br/>
 
