@@ -63,7 +63,7 @@ A{基础知识} --> B(工具使用)
 
 ### 二、接触JS
 
-#### [进入课程文档](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/1.%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/接触JS.md)
+#### [进入课程文档](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/2.%20%E6%8E%A5%E8%A7%A6JS/%E6%8E%A5%E8%A7%A6JS.md)
 
 <br/>
 
