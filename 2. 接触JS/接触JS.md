@@ -70,9 +70,9 @@ HTML：Hypertext Markup Language，超文本标记语言
 
 
 1. Html基本结构是不能乱的，不然浏览器会迷惑
-<br/>
+
 2. 代码书写要有层次缩进
-<br/>
+
 3. 标签成对出现，不可以顾头不顾尾
 
 <br/>
