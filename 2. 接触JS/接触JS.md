@@ -132,10 +132,11 @@ PHP：用现有库来代替SQL实现对服务器端的操作
 <br/>
 
 1. 创建网站文件夹，取自己喜欢的名字
-<br/>
+
 2. 在网站文件夹中，创建三个文件夹：css img js
-<br/>
+
 3. 新建文本文档，并将名称与后缀更改为 index.html ，并将编码格式改为 UTF-8
+
 <br/>
 
 <img height="160" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/3-1%20%E7%BD%91%E7%AB%99%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84.png">
@@ -245,6 +246,8 @@ PHP：用现有库来代替SQL实现对服务器端的操作
 <br/>
 
 首先，我们在 js 文件夹中新建一个文件，并重命名为 code.js 。
+
+<br/>
 
 第二步，将之前我们写好的四行 js 代码复制进 code.js 中，并保存 code.js 。
 
