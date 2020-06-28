@@ -501,7 +501,13 @@ int PrintCount(int n){
 
 它们的性能如下表：
 
+<br/>
+
 <img height="600" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/2-5%20%E4%B8%8D%E5%90%8C%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.jpg">
+
+<br/>
+
+可见随着输入数据的规模增大，不同算法之间的耗时相差悬殊，有一些明显已经不能有效应对问题了。
 
 <br/>
 
