@@ -14,7 +14,7 @@
 
     4.实操部分（下）：逻辑实现价格判断与循环加和
 
-    5.驼峰命名法
+    5.代码规范：驼峰命名法
 
 <br/>
 
@@ -223,7 +223,7 @@ PHP：用现有库来代替SQL实现对服务器端的操作
 
 这里你肯定会逐行看这些代码，并猜测它们的含义。
 
-虽然它们不是本节课要学习的内容，但那你能大概猜猜它们的作用吗？
+虽然它们是还没有讲解过的内容，但那你能大概猜猜它们的作用吗？
 
 <br/>
 
@@ -360,7 +360,7 @@ function function_name(parameter){
 
 ```js
 function showHelloWorld(number){
-    if(number < 20){
+    if(number > 20){
         return "Hello, World!";
     }
     return "Not enough";
