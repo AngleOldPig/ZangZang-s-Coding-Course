@@ -14,7 +14,7 @@
 
     4.实操部分（下）：逻辑实现价格判断与循环加和
 
-    5.算法导论：时间复杂度
+    5.驼峰命名法
 
 <br/>
 
@@ -425,93 +425,86 @@ var result = showHelloWorld(i);
 
 <br/>
 
-### 5. 理论知识：时间复杂度
+### 5. 驼峰命名法
 
 <br/>
 
-<img height="360" src="https://raw.githubusercontent.com/AngleOldPig/ZangZang-s-Coding-Course/master/Resources/images/2-5%20%E5%8F%82%E8%80%83%E6%95%99%E6%9D%90.png">
+随着行业发展，工程规模越来越大，开发人员们需要合作来共同完成同一个工程，这时命名就出现了分歧。
 
 <br/>
 
-    参考教材
-    
-    《Algorithm Design》 Jon Kleinberg & Éva Tardos
-
-    2.1 Computational Tractability 计算可解性 【Page 29-35】
+比如：需要定义一个变量来存放我的名字，有的人会写成 myname，有的人写 MyName，还有人写 my_name，等等各种各样的方式，使得大家的代码放在一起会很混乱。
 
 <br/>
 
-随着输入数据的数量规模增加，程序运行需要更大的内存空间和更长的时间，但不同的算法对数据增加的敏感性不同。
+因此业界慢慢形成了统一的命名规范，目前常见的有两种：
+
+    驼峰命名法： myNameIsOldpig
+
+    下划线法： my_name_is_oldpig
 
 <br/>
 
-定义：给定输入数据规模 n，在最差的情况下花费的时间为 T(n) ，随着 n 的规模增大，算法执行所需要的时间增长速度用 f(n) 表示。
+**驼峰命名法** 是目前的主流命名规范，目前新的函数库中几乎全部采用，也是接下来你要遵守的规范。
 
 <br/>
 
-目前时间复杂度普遍采用大O表示法：T(n) = O( f(n) )
-```C
-int oldpig = 0;
-for(int i=0;i<n;i++){
-    oldpig++;
+**下划线法** 是 C 语言出现早起形成的规范，在许多古老的程序和 UNIX 环境中可以常常见到它。
+
+<br/>
+
+下划线法更多时候就像繁体中文，大家只要能理解就好了，真正使用时还是要采用驼峰命名法。
+
+<br/>
+
+不过驼峰命名法也分为 **大驼峰** 和 **小驼峰**
+
+<br/>
+
+大驼峰是名字中每个单词都首字母大写，用于类名、命名空间等地方。
+
+比如：
+
+```js
+class CoderData{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+}
+```
+
+```js
+const p1 = new CoderData("OldPig", 26);
+```
+
+<br/>
+
+小驼峰是名字中第一个单词不变，剩下的单词首字母大写，用于变量名、函数名等常见的名字。
+
+比如：
+
+```js
+var myName = "OldPig";
+```
+
+```js
+function sayHello(myName){
+    alert("Hello "+myName+"!");
 }
 ```
 
 <br/>
 
-这段循环程序的时间复杂度为 T(n) = O(n)
+除此之外，其实国内还有一种情况：用拼音代替英文单词
+
+他们虽然遵守驼峰命名法，但也给沟通交流放置了障碍，尤其是拼音不带声调的话，很难让人一眼就看出具体代表了什么。
+
+比如：函数 sanDianZhongXinJiSuan，到底是三点中心计算，还是散点中心计算？
 
 <br/>
 
-因为程序根据 n 的大小决定循环的次数，若 n 翻倍，花费的时间亦要翻倍，因此 f(n) = n ，代入公式则得到T(n) = O( f(n) ) = O(n)
-
-<br/>
-
-但是要注意大O准确的意义是 f(n) 函数的数量级上界。若 f(n) 最终结果是多项式形式，则只取最高阶数量级，其中的低阶项和常数可省略。例如：
-```C
-int PrintCount(int n){
-    for(int i=0;i<n;i++){
-        printf("Hello world!\n");
-    }
-    for(int j=0;j<n;j++){
-        printf("This is OldPig!\n");
-    }
-    return 0;
-}
-```
-
-<br/>
-
-以上程序中，我们根据 n 的大小决定了循环次数，每翻倍 n 一次，就增加了 2n 次循环，但这个程序的时间复杂度依然是 T(n) = O(n) 。因为虽然 f(n) = 2n ，但它作为多项式，最高阶为 n 的一次方，因此取 O(n) 来代表此程序的时间复杂度。
-
-<br/>
-
-#### 常见的时间复杂度量级
-
-- 常数阶O(1)
-- 对数阶O(logN)
-- 线性阶O(n)
-- 线性对数阶O(nlogN)
-- 平方阶O(n²)
-- 立方阶O(n³)
-- K次方阶O(n^k)
-- 指数阶(2^n)
-
-<br/>
-
-它们的性能如下表：
-
-<br/>
-
-<img height="600" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/2-5%20%E4%B8%8D%E5%90%8C%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E7%9A%84%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.jpg">
-
-<br/>
-
-可见随着输入数据的规模增大，不同算法之间的耗时相差悬殊，有一些明显已经不能有效应对问题了。
-
-<br/>
-
-#### 因此我们使用更少的时间空间完成目标，才是优秀程序员的能力。
+所以在接下来的学习和作业中，请一定要注意命名规范。
 
 <br/>
 
