@@ -17,7 +17,7 @@
 
 <br/>
 
-### 4. 发送 Pull request 推送进课程文件夹。
+### 4. 发送 Pull request 推送进课程的 homework 分支。
 
 <br/>
 
