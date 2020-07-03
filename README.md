@@ -24,7 +24,7 @@
 
 <br/>
 
-每节课包含三部分：代码语法、实操、算法导论&数据结构知识
+每节课包含三部分：代码语法、实操、代码规范&算法知识
 
 教学指导文档在每节课的文件夹中
 
@@ -34,6 +34,10 @@
 
 - <img height="16" src="https://github.com/BackMarket/github-mermaid-extension/raw/master/resources/icons/chrome.svg?sanitize=true"> **Google Chrome**: [GitHub + Mermaid - Chrome Web Store](https://chrome.google.com/webstore/detail/github-%20-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe)
 - <img height="16" src="https://github.com/BackMarket/github-mermaid-extension/raw/master/resources/icons/firefox.svg?sanitize=true"> **Firefox**: [GitHub + Mermaid - Firefox Add-ons](https://addons.mozilla.org/en-GB/firefox/addon/github-mermaid/)
+
+<br/>
+
+如果图片无法加载，或插件无法下载，则需要翻墙
 
 <br/>
 
@@ -63,7 +67,7 @@ A{基础知识} --> B(工具使用)
 
 ### 二、接触JS
 
-#### [进入课程文档](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/1.%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/接触JS.md)
+#### [进入课程文档](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/2.%20%E6%8E%A5%E8%A7%A6JS/%E6%8E%A5%E8%A7%A6JS.md)
 
 <br/>
 
@@ -81,8 +85,8 @@ A{接触JS} --> B(所需技术)
         J --> K[在VS中创建JS项目]
         J --> L[布置本地页面]
         J --> M[实现价格判断与循环加和]
-        A --> N(算法导论)
-        N --> O[时间复杂度]
+        A --> N(代码规范)
+        N --> O[驼峰命名法]
 ```
 
 <br/>
