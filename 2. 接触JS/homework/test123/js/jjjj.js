@@ -23,3 +23,24 @@ alert(i);
 
 
 
+var arr = [32,16,4,13,62,20];
+for(var j = 0; j < arr.length; j++){
+    if (arr[j] > 20){
+        arr[j] = arr[j] + 1;
+    }
+    else{
+        arr[j] = arr[j] + 10;
+    }
+}
+alert(arr);
+
+
+var arr = [32,16,4,13,62,20];
+var i = 0;
+function Sum(i){
+    for(var j = 0; j < arr.length; j++){
+        i = i + arr[j];
+    }
+}
+var result = Sum(i);
+alert(result);
