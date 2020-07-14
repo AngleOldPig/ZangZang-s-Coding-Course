@@ -92,4 +92,30 @@ A{接触JS} --> B(所需技术)
 
 <br/>
 
+### 三、与用户交互
+
+#### [进入课程文档](https://github.com/AngleOldPig/ZangZang-s-Coding-Course/blob/master/3.%20与用户交互/与用户交互.md)
+
+```mermaid
+graph LR
+A{与用户交互} --> B(Html)
+        B --> C(建立交互页面)
+        C --> D[常用标签]
+        C --> E[input标签]
+        A --> F(JavaScript)
+        F --> G[对象获取方法]
+        F --> H[属性参数更改方法]
+        F --> I[结果输出方法]
+        F --> J[用按钮触发函数]
+        A --> K(实操)
+        K --> L[构思解决方案]
+        K --> M[建立网站和html结构]
+        K --> N[编写JS文件]
+        K --> O[调试与验证功能]
+        A --> P(数据结构)
+        P --> Q[全局变量与临时变量]
+```
+
+<br/>
+
 <br/>
