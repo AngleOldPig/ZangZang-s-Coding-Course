@@ -105,7 +105,7 @@
 
 之后我们就可以回到 git bash 里来验证一下成果，看看软件是不是能通过 SSH Key 自动连接到 github。
 
-在 git bash 里 输入指令：
+在 git bash 里输入指令：
 
 ```$ ssh -T git@github.com```
 
