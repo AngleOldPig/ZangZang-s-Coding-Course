@@ -111,7 +111,7 @@
 
 如果之前设置过登陆密码的话需要输入密码。
 
-<img height="160" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/git bash登陆.png">
+<img height="140" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/git bash登陆.png">
 
 如果你的屏幕上出现了和我类似的一段话，说明你的绑定成功了，接下来我们将着手实现撤销操作。
 
