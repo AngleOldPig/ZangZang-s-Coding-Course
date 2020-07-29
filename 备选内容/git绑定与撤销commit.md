@@ -32,7 +32,7 @@
 
 完成 Git 安装后我们找到刚才的安装目录，可以发现这么一些文件：
 
-<img height="160" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/Git全家福.png">
+<img height="300" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/Git全家福.png">
 
 其中，
 
@@ -61,7 +61,7 @@
 
 后面的操作我们默认回车就可以了，完成时如下图：
 
-<img height="160" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/ssh key.png">
+<img height="400" src="https://github.com/AngleOldPig/ZangZang-s-Coding-Course/raw/master/Resources/images/ssh key.png">
 
 <br/>
 
