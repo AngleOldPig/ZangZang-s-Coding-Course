@@ -193,7 +193,7 @@
 
 ```$ git push origin master --force```
 
-这里的 force 参数必须要带，不然就提示这次 push 被拒绝了。
+这里的 force 参数必须要带，不然就会提示这次 push 被拒绝，原因是本地和线上的版本号有出入。
 
 <br/>
 
